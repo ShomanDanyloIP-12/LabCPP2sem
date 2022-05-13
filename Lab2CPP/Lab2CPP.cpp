@@ -41,7 +41,7 @@ void OpenFile(string name) {
     }
     ofstream fileof(name, ios::binary);
     string line;
-    cout << "Enter the student information as \n Surname Initials Day.Month.Year(of birth) Group-Flow EducationForm AverageGrade \n Example: Ivaniv I. I. 15.12.2003 IK-9 89 \n To end the line | press ---> ENTER\n To end the input | input ---> 'end'" << endl;
+    cout << "Enter the student information as \n Surname Initials Day.Month.Year(of birth) Group-Flow EducationForm AverageGrade \n Example: Ivaniv I. I. 15.12.2003 IK-9 day 89 \n To end the line | press ---> ENTER\n To end the input | input ---> 'end'" << endl;
     cin.ignore();
     getline(cin, line);
     while (line != "end") {
